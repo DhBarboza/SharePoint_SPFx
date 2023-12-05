@@ -14,7 +14,7 @@ nvm install [version]
 nvm ls
 ```
 
-**3. Colocar em utilização a versão desejada**
+**3. Colocar em utilização a versão desejada:**
 
 ```bash
 nvm use [version]
@@ -44,7 +44,7 @@ npm install -g @microsoft/generator-sharepoint@1.10.0
 gulp trust-dev-cert
 ```
 
-## Criar um novo projeto:
+## Criar um novo projeto
 
 ```bash
 yo @microsoft/sharepoint
