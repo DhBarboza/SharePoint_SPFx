@@ -11,7 +11,7 @@ Connect-SPOService
 ```
 
 **Url:**
-Ex: https://6bdykp-admin.sharepoint.com/
+Ex: <https://6bdykp-admin.sharepoint.com/>
 
 **Verificar Status do tenant:**
 
