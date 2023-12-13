@@ -1,4 +1,4 @@
-# Ferramentas para tarbalhar com SPFx
+# Ferramentas para trabalhar com SPFx
 
 <https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/>
 
