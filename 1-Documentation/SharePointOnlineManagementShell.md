@@ -3,7 +3,6 @@
 > Executar como administrador
 Comandos do Terminal
 
-
 **Conectar ao Tenant:**
 
 ```bash
@@ -35,4 +34,23 @@ Get-SPOTenantCdnPolicies -CdnType Public
 
 ```bash
 Set-SPOTenantCdnEnabled -CdnType Public
+```
+
+**Criar um  App Catalog em nosso site collection:**
+
+```powershell
+$site = Get-SPOSite 'https://6bdykp.sharepoint.com/sites/<SiteName>'
+$site = Get-SPOSite 'https://6bdykp.sharepoint.com/sites/Study'
+```
+
+```powershell
+Add-SPOSiteCollectionAppCatalog -Site $site
+```
+
+> Segunda Opção:
+
+```bash
+Connect-SPOService -Url https://6bdykp-admin.sharepoint.com -Credential $credential
+$siteUrl = "https://6bdykp.sharepoint.com/sites/Study"
+Add-SPOSiteCollectionAppCatalog -Site $siteUrl
 ```

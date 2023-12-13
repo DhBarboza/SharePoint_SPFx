@@ -1,17 +1,17 @@
 # Ferramentas para tarbalhar com SPFx
 
-https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/
+<https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/>
 
 **1 - Fira Code:**
 
 > Tutorial:
-https://www.youtube.com/watch?v=xzuOABxFZ9Q
+<https://www.youtube.com/watch?v=xzuOABxFZ9Q>
 
 > Baixar fontes:
-https://github.com/tonsky/FiraCode
+<https:/>/github.com/tonsky/FiraCode>
 
 **2 - Postman:**
-https://www.postman.com/downloads/
+<https://www.postman.com/downloads/>
 
 **3 - CLI for Microsoft 365:**
 
@@ -36,7 +36,7 @@ Install-Module PnP.PowerShell
 Selecione [A]
 
 **5 - Shell de Gerenciamento do SharePoint Online:**
-https://www.microsoft.com/pt-br/download/details.aspx?id=35588
+<https://www.microsoft.com/pt-br/download/details.aspx?id=35588>
 
 **6 - Gerador PnP Yeoman:**
 
@@ -44,7 +44,7 @@ https://www.microsoft.com/pt-br/download/details.aspx?id=35588
 npm install -g @pnp/generator-spfx
 ```
 
-## Extenções do VS Code:
+## Extenções do VS Code
 
 - Paste JSON as Code
 - Rencore Deploy SPFx Package
@@ -57,6 +57,6 @@ npm install -g @pnp/generator-spfx
 - SPGo
 - Learn Authoring Pack
 
-## Nice to Have:
+## Nice to Have
 
 [ZoomIt](https://learn.microsoft.com/pt-br/sysinternals/downloads/zoomit)

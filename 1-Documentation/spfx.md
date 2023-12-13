@@ -107,3 +107,10 @@ npm outdated
 ```bash
 npm install <NomeDoPacote>@<versão> --save
 ```
+
+**Tenant App Catalog:**
+Catálogo principal de itens do tenant, todos os site collections possuem acesso ao aplicativo
+(Para muitos projetos, não é recomendado que seja feito o deploy desta maneira)
+
+**App Catalog:**
+Catálogo específico para um site collection, ou seja, fica disponível apenas ao seu site
