@@ -11,7 +11,7 @@ npm install jquery --save
 npm install @types/jquery --save-dev
 npm install bootstrap@4 --save
 npm install @types/bootstrap@4 --save-dev
-npm install --save-dev @fortawesome/fontawesome-free
+npm install @fortawesome/fontawesome-free --save-dev
 ````
 
 --instalar o url-loader

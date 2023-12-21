@@ -22,6 +22,7 @@
     "@pnp/odata": "^1.3.7",
     "@pnp/sp": "^1.3.7",
     "@types/es6-promise": "0.0.33",
+    "@types/toastr": "^2.1.43",
     "@types/webpack-env": "1.13.1",
     "bootstrap": "^4.6.2",
     "jquery": "^3.7.1"

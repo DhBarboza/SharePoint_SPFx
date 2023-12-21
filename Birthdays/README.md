@@ -1,8 +1,8 @@
-## Birthdays
+# Birthdays
 
 This is where you include your WebPart documentation.
 
-### Building the code
+## Building the code
 
 ```bash
 git clone the repo
