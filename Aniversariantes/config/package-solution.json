@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cadastrar-aniversariante-client-side-solution",
+    "id": "0f135eb0-8806-4ebb-99f2-0d9abddae4da",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/cadastrar-aniversariante.sppkg"
+  }
+}

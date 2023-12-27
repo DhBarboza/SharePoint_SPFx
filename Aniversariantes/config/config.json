@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cadastrar-aniversariante-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cadastrarAniversariante/CadastrarAniversarianteWebPart.js",
+          "manifest": "./src/webparts/cadastrarAniversariante/CadastrarAniversarianteWebPart.manifest.json"
+        }
+      ]
+    },
+    "listar-aniversariantes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listarAniversariantes/ListarAniversariantesWebPart.js",
+          "manifest": "./src/webparts/listarAniversariantes/ListarAniversariantesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CadastrarAniversarianteWebPartStrings": "lib/webparts/cadastrarAniversariante/loc/{locale}.js",
+    "ListarAniversariantesWebPartStrings": "lib/webparts/listarAniversariantes/loc/{locale}.js"
+  }
+}
