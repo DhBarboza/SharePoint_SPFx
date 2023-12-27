@@ -13,12 +13,16 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.10.0",
-    "@microsoft/sp-property-pane": "1.10.0",
-    "@microsoft/sp-webpart-base": "1.10.0",
     "@microsoft/sp-lodash-subset": "1.10.0",
     "@microsoft/sp-office-ui-fabric-core": "1.10.0",
-    "@types/webpack-env": "1.13.1",
-    "@types/es6-promise": "0.0.33"
+    "@microsoft/sp-property-pane": "1.10.0",
+    "@microsoft/sp-webpart-base": "1.10.0",
+    "@pnp/common": "^1.3.7",
+    "@pnp/logging": "^1.3.7",
+    "@pnp/odata": "^1.3.7",
+    "@pnp/sp": "^1.3.7",
+    "@types/es6-promise": "0.0.33",
+    "@types/webpack-env": "1.13.1"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "1.10.0",
