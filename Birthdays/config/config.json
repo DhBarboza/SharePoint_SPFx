@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "register-birthdays-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/registerBirthdays/RegisterBirthdaysWebPart.js",
+          "manifest": "./src/webparts/registerBirthdays/RegisterBirthdaysWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-birthdays-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listBirthdays/ListBirthdaysWebPart.js",
+          "manifest": "./src/webparts/listBirthdays/ListBirthdaysWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RegisterBirthdaysWebPartStrings": "lib/webparts/registerBirthdays/loc/{locale}.js",
+    "ListBirthdaysWebPartStrings": "lib/webparts/listBirthdays/loc/{locale}.js"
+  }
+}

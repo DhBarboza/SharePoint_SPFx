@@ -22,8 +22,7 @@ npm i -g @pnp/cli-microsoft365
 **4 - PnP PowerShell for SharePoint Online:**
 
 > Guide:
-> https://www.spguides.com/install-pnp-powershell/
-
+> <https://www.spguides.com/install-pnp-powershell/>
 > Commands:
 
 ```bash
